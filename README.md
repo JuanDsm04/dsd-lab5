@@ -20,6 +20,7 @@ El dataset contiene ~7,600 tweets etiquetados con `target = 1` (desastre real) o
 1. Descargar `train.csv` desde Kaggle y colocarlo en `./data/`.
 2. Ejecutar los notebooks **en orden**, ya que cada uno depende del output del anterior.
 3. El notebook 04 guarda el modelo entrenado en `./models/`, que es requerido por los notebooks 05 y 06.
+4. El notebook 06 guarda `./data/train_sentiment.csv`, con las variables de sentimiento y la negatividad de cada tweet.
 
 ## Dependencias principales
 
@@ -28,6 +29,6 @@ pandas, numpy, matplotlib, seaborn
 scikit-learn
 nltk
 wordcloud
-textblob
+scipy
 joblib
 ```
